@@ -42,7 +42,7 @@ _start:
     .if01_:
         call    sprint
         mov     eax, [input2]
-        call    iprint
+        call    iprintLF
         mov     eax, dot
         call    cprintLF
 
