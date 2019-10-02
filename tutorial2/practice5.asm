@@ -1,4 +1,4 @@
-%include 'mstdio.asm'
+%include '../mstdio.asm'
 
 SECTION .data
     cStar        db      "*"

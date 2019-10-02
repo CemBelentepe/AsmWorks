@@ -40,7 +40,15 @@ cprint:
 ;--------------------------------------
 ; void cprintLF(char* c)
 cprintLF:
-    
+    call    cprint
+
+    push    eax
+    mov     eax, 0Ah
+    push    eax
+    mov     eax, esp
+    call    cprint
+    pop     eax
+    pop     eax
     ret
 ;--------------------------------------
 

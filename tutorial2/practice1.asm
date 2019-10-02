@@ -1,4 +1,4 @@
-%include 'mstdio.asm'
+%include '../mstdio.asm'
 SECTION .data
     msg     db      "Sum of all numbers from 1 to 50: ", 0
 SECTION .text
